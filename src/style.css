@@ -1,0 +1,151 @@
+body {
+    background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+    ;
+}
+
+
+#baby-name-form {
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+/* Input Field */
+.baby-name-input {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #bae8e8;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.baby-name-input:focus {
+    border-color: #7dace4;
+}
+
+.hint {line-height: 1.5; margin-top: 5px; opacity: 0,6; font-size: 12px; font-family: 'Times New Roman', Times, serif; text-align: center;
+
+}
+
+
+.submit {
+    display: block;
+    width: 100%;
+    margin: 0;
+    border: 1px solid #bae8e8;
+    background: #7dace4;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 12px 20px;
+    transition: background 150ms ease-in-out, transform 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #6a9ac4;
+    transform: scale(1.05);
+    /* Added scaling effect on hover */
+}
+
+footer {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    /* More rounded borders */
+    text-align: center;
+    /* Center align form content */
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #7dace4;
+    font-weight: 800;
+}
+
+.baby-name {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 16px;
+    display: block;
+    /* Ensure each baby name is on a new line */
+    text-align: center;
+    /* Center align baby names */
+}
+
+.grid {
+    margin: 60px auto;
+    display: grid;
+    width: 800px;
+    grid-template-columns: repeat(4, 200px);
+    gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.baby-image1 {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.baby-image1:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+}
+
+.baby-image2 {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.baby-image2:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+}
+
+.baby-image3 {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.baby-image3:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+}
+
+.baby-image4 {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.baby-image4:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+}
+
